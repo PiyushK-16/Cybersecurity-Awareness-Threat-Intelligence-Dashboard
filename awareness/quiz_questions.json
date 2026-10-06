@@ -1,0 +1,418 @@
+[
+  {
+    "id": "Q01",
+    "category": "Phishing",
+    "question": "You receive an unexpected message asking you to urgently verify your password. What should you do?",
+    "options": {
+      "A": "Forward your credentials to a colleague",
+      "B": "Reply with your password",
+      "C": "Click immediately",
+      "D": "Verify through an official trusted channel"
+    },
+    "answer": "D",
+    "explanation": "Urgent credential requests are a classic phishing sign. Use a channel you already trust, never the message's own link."
+  },
+  {
+    "id": "Q02",
+    "category": "Phishing",
+    "question": "Which is a common warning sign of a phishing email?",
+    "options": {
+      "A": "Message addressed to you by your real name only",
+      "B": "A newsletter you subscribed to",
+      "C": "An email sent during business hours",
+      "D": "Sender domain closely resembles a real one but is slightly off"
+    },
+    "answer": "D",
+    "explanation": "Look-alike domains are used to impersonate trusted senders."
+  },
+  {
+    "id": "Q03",
+    "category": "Phishing",
+    "question": "A link's text shows a bank name, but hovering shows a different address. What does this suggest?",
+    "options": {
+      "A": "The link may be deceptive - do not click",
+      "B": "Normal browser behaviour",
+      "C": "The email is certainly safe",
+      "D": "The bank changed servers"
+    },
+    "answer": "A",
+    "explanation": "Mismatched link text and destination is a red flag."
+  },
+  {
+    "id": "Q04",
+    "category": "Phishing",
+    "question": "You get an unexpected QR code in an email asking you to sign in. Best response?",
+    "options": {
+      "A": "Reply asking for another code",
+      "B": "Do not scan; go to the official site yourself or verify with the sender",
+      "C": "Scan it quickly",
+      "D": "Scan it with a friend's phone"
+    },
+    "answer": "B",
+    "explanation": "QR codes hide the destination; verify through a trusted route."
+  },
+  {
+    "id": "Q05",
+    "category": "Passwords",
+    "question": "Which password approach is safest?",
+    "options": {
+      "A": "Your birthday plus a number",
+      "B": "One strong password reused everywhere",
+      "C": "A long unique passphrase per account stored in a password manager",
+      "D": "Writing it on a sticky note on the monitor"
+    },
+    "answer": "C",
+    "explanation": "Unique passphrases limit damage from a single breach."
+  },
+  {
+    "id": "Q06",
+    "category": "Passwords",
+    "question": "Why is password reuse risky?",
+    "options": {
+      "A": "It makes passwords longer",
+      "B": "It slows down logins",
+      "C": "It is not risky",
+      "D": "A breach on one site can unlock your other accounts"
+    },
+    "answer": "D",
+    "explanation": "Attackers try leaked passwords on other services (credential stuffing)."
+  },
+  {
+    "id": "Q07",
+    "category": "Passwords",
+    "question": "What makes a password stronger?",
+    "options": {
+      "A": "Replacing 'a' with '@' only",
+      "B": "Making it expire daily",
+      "C": "Using a pet's name",
+      "D": "Length and unpredictability"
+    },
+    "answer": "D",
+    "explanation": "Length and randomness matter most; simple substitutions are easy to guess."
+  },
+  {
+    "id": "Q08",
+    "category": "Passwords",
+    "question": "A colleague asks you to share your login 'just this once'. What do you do?",
+    "options": {
+      "A": "Share half the password",
+      "B": "Share it by chat",
+      "C": "Decline and request proper access for them",
+      "D": "Share it but change it later"
+    },
+    "answer": "C",
+    "explanation": "Credentials are personal; request correct access instead."
+  },
+  {
+    "id": "Q09",
+    "category": "MFA",
+    "question": "Why is a password plus MFA generally safer than a password alone?",
+    "options": {
+      "A": "A stolen password alone is not enough to sign in",
+      "B": "It removes the need for passwords entirely",
+      "C": "It is not safer",
+      "D": "It makes phishing impossible"
+    },
+    "answer": "A",
+    "explanation": "MFA adds a second proof, though some methods are still phishable."
+  },
+  {
+    "id": "Q10",
+    "category": "MFA",
+    "question": "You receive an MFA prompt you did not request. What should you do?",
+    "options": {
+      "A": "Deny it and change your password, then report it",
+      "B": "Share the code with support",
+      "C": "Ignore it forever",
+      "D": "Approve it to make it stop"
+    },
+    "answer": "A",
+    "explanation": "Unexpected prompts can mean someone has your password."
+  },
+  {
+    "id": "Q11",
+    "category": "MFA",
+    "question": "Which is considered more phishing-resistant?",
+    "options": {
+      "A": "Email codes",
+      "B": "SMS one-time codes",
+      "C": "Passkeys / security keys (WebAuthn)",
+      "D": "Security questions"
+    },
+    "answer": "C",
+    "explanation": "Passkeys and security keys are bound to the real website."
+  },
+  {
+    "id": "Q12",
+    "category": "Social Engineering",
+    "question": "A caller says they are from IT and need your password to fix an issue. Best action?",
+    "options": {
+      "A": "Ask them to email you",
+      "B": "Refuse, hang up and contact IT via an official number",
+      "C": "Give only part of it",
+      "D": "Give it so the issue is fixed"
+    },
+    "answer": "B",
+    "explanation": "IT should never need your password; verify independently."
+  },
+  {
+    "id": "Q13",
+    "category": "Social Engineering",
+    "question": "Which tactic is typical of social engineering?",
+    "options": {
+      "A": "Asking you to verify with your manager",
+      "B": "Following the standard process",
+      "C": "Creating urgency or pressure",
+      "D": "Giving you plenty of time"
+    },
+    "answer": "C",
+    "explanation": "Pressure encourages skipping verification."
+  },
+  {
+    "id": "Q14",
+    "category": "Social Engineering",
+    "question": "You find an unlabelled USB drive in the car park. What should you do?",
+    "options": {
+      "A": "Take it home",
+      "B": "Share it on social media",
+      "C": "Plug it in to see the owner",
+      "D": "Hand it to IT/security without plugging it in"
+    },
+    "answer": "D",
+    "explanation": "Unknown drives can carry malware."
+  },
+  {
+    "id": "Q15",
+    "category": "Safe Browsing",
+    "question": "Your browser shows a certificate warning on a login page. What now?",
+    "options": {
+      "A": "Leave the page and do not enter credentials",
+      "B": "Turn off warnings",
+      "C": "Retry on a different device",
+      "D": "Click 'continue anyway'"
+    },
+    "answer": "A",
+    "explanation": "Warnings can indicate spoofing or interception."
+  },
+  {
+    "id": "Q16",
+    "category": "Safe Browsing",
+    "question": "What is the safest way to reach your bank's website?",
+    "options": {
+      "A": "Click a link from an email",
+      "B": "Use a saved bookmark or type the address",
+      "C": "Search and click the first ad",
+      "D": "Use a link from a text message"
+    },
+    "answer": "B",
+    "explanation": "Bookmarks avoid look-alike pages."
+  },
+  {
+    "id": "Q17",
+    "category": "Safe Browsing",
+    "question": "Why install software updates promptly?",
+    "options": {
+      "A": "They fix known security weaknesses",
+      "B": "They reset passwords",
+      "C": "They make devices slower",
+      "D": "They are optional cosmetic changes"
+    },
+    "answer": "A",
+    "explanation": "Attackers exploit known unpatched flaws."
+  },
+  {
+    "id": "Q18",
+    "category": "Ransomware",
+    "question": "What is the most important preparation for ransomware?",
+    "options": {
+      "A": "Sharing admin passwords",
+      "B": "Paying quickly",
+      "C": "Tested offline or immutable backups",
+      "D": "Disabling antivirus"
+    },
+    "answer": "C",
+    "explanation": "Good backups allow recovery without paying."
+  },
+  {
+    "id": "Q19",
+    "category": "Ransomware",
+    "question": "Your files suddenly cannot be opened and a ransom note appears. First step?",
+    "options": {
+      "A": "Delete the note and continue",
+      "B": "Pay the ransom",
+      "C": "Restart repeatedly",
+      "D": "Report immediately and follow the incident plan"
+    },
+    "answer": "D",
+    "explanation": "Fast reporting limits spread; do not act alone."
+  },
+  {
+    "id": "Q20",
+    "category": "Ransomware",
+    "question": "Which control helps limit how far ransomware spreads?",
+    "options": {
+      "A": "Disabling updates",
+      "B": "Everyone having admin rights",
+      "C": "Flat networks",
+      "D": "Network segmentation and least privilege"
+    },
+    "answer": "D",
+    "explanation": "Segmentation and least privilege contain damage."
+  },
+  {
+    "id": "Q21",
+    "category": "Privacy",
+    "question": "Before sharing a document through a link, what should you check?",
+    "options": {
+      "A": "Nothing",
+      "B": "Only the file name",
+      "C": "Who can access the link and whether it contains sensitive data",
+      "D": "Only the file size"
+    },
+    "answer": "C",
+    "explanation": "Public links can expose data to anyone."
+  },
+  {
+    "id": "Q22",
+    "category": "Privacy",
+    "question": "What is data minimisation?",
+    "options": {
+      "A": "Collecting and sharing only what is needed",
+      "B": "Collecting as much data as possible",
+      "C": "Encrypting only emails",
+      "D": "Deleting all data"
+    },
+    "answer": "A",
+    "explanation": "Less data means less to lose."
+  },
+  {
+    "id": "Q23",
+    "category": "Privacy",
+    "question": "You send an email with personal data to the wrong person. What should you do?",
+    "options": {
+      "A": "Blame the recipient",
+      "B": "Report it promptly as an incident",
+      "C": "Delete your sent copy only",
+      "D": "Hope they ignore it"
+    },
+    "answer": "B",
+    "explanation": "Prompt reporting allows containment."
+  },
+  {
+    "id": "Q24",
+    "category": "Wi-Fi",
+    "question": "Using public Wi-Fi for work. What is the safest approach?",
+    "options": {
+      "A": "Disable your screen lock",
+      "B": "Join any open network",
+      "C": "Share the hotspot password publicly",
+      "D": "Use an approved VPN or a trusted connection"
+    },
+    "answer": "D",
+    "explanation": "A VPN protects traffic on untrusted networks."
+  },
+  {
+    "id": "Q25",
+    "category": "Wi-Fi",
+    "question": "Two networks are named almost identically at a cafe. What should you do?",
+    "options": {
+      "A": "Join both",
+      "B": "Join the stronger signal",
+      "C": "Ask staff for the exact network name",
+      "D": "Turn off updates"
+    },
+    "answer": "C",
+    "explanation": "Fake hotspots imitate real ones."
+  },
+  {
+    "id": "Q26",
+    "category": "Wi-Fi",
+    "question": "What should you change on a new home router?",
+    "options": {
+      "A": "Disable the password",
+      "B": "The default admin password and keep firmware updated",
+      "C": "Only the colour",
+      "D": "Nothing"
+    },
+    "answer": "B",
+    "explanation": "Default credentials are widely known."
+  },
+  {
+    "id": "Q27",
+    "category": "Mobile Security",
+    "question": "Which is a good mobile security habit?",
+    "options": {
+      "A": "Install apps from unofficial sites",
+      "B": "Use a screen lock and keep the OS updated",
+      "C": "Share your PIN",
+      "D": "Disable encryption"
+    },
+    "answer": "B",
+    "explanation": "Updates and lock screens protect against common attacks."
+  },
+  {
+    "id": "Q28",
+    "category": "Mobile Security",
+    "question": "An app requests access to contacts and microphone for no clear reason. What should you do?",
+    "options": {
+      "A": "Allow everything",
+      "B": "Deny unnecessary permissions or skip the app",
+      "C": "Install it twice",
+      "D": "Ignore the request forever"
+    },
+    "answer": "B",
+    "explanation": "Grant only permissions that fit the app's purpose."
+  },
+  {
+    "id": "Q29",
+    "category": "Mobile Security",
+    "question": "Your phone is lost. What is a sensible first step?",
+    "options": {
+      "A": "Post about it publicly",
+      "B": "Use remote lock/wipe and report it",
+      "C": "Change nothing",
+      "D": "Wait a week"
+    },
+    "answer": "B",
+    "explanation": "Quick remote action protects accounts and data."
+  },
+  {
+    "id": "Q30",
+    "category": "Incident Reporting",
+    "question": "You clicked a suspicious link and feel embarrassed. What should you do?",
+    "options": {
+      "A": "Report it immediately",
+      "B": "Say nothing",
+      "C": "Delete your browser",
+      "D": "Wait to see if something happens"
+    },
+    "answer": "A",
+    "explanation": "Early reports limit damage; good-faith reports should be welcomed."
+  },
+  {
+    "id": "Q31",
+    "category": "Incident Reporting",
+    "question": "What helps a security team most when you report a suspicious email?",
+    "options": {
+      "A": "Replying to the sender",
+      "B": "Keeping the original message and describing what happened",
+      "C": "Forwarding it to everyone",
+      "D": "Deleting it first"
+    },
+    "answer": "B",
+    "explanation": "Original evidence and a factual description speed investigation."
+  },
+  {
+    "id": "Q32",
+    "category": "Incident Reporting",
+    "question": "When should you report something that seems suspicious but you are unsure about?",
+    "options": {
+      "A": "Only when certain",
+      "B": "Never",
+      "C": "As soon as possible, even if unsure",
+      "D": "After a month"
+    },
+    "answer": "C",
+    "explanation": "Security teams prefer early, uncertain reports."
+  }
+]

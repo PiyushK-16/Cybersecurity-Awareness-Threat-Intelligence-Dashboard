@@ -1,0 +1,380 @@
+[
+  {
+    "module_id": "MOD-01",
+    "slug": "phishing",
+    "title": "Phishing Awareness",
+    "quiz_category": "Phishing",
+    "what_is_it": "Deceptive messages (email, SMS, chat, QR codes) designed to make you reveal credentials, pay money or open something unsafe.",
+    "why_it_matters": "Phishing is a leading way accounts get taken over; one click can expose a whole organisation.",
+    "warning_signs": [
+      "Sender domain that only looks like the real one",
+      "Urgency or threats ('act in 1 hour')",
+      "Request for a password or code",
+      "Unexpected attachment or invoice",
+      "Link whose real destination differs from the text",
+      "Payment or gift-card request",
+      "Impersonation of a boss, bank or IT desk",
+      "Unexpected QR code asking you to sign in"
+    ],
+    "safe_practices": [
+      "Pause and read slowly",
+      "Hover over links to preview them (do not click)",
+      "Verify through an official channel you already trust",
+      "Report the message using your organisation's reporting method"
+    ],
+    "if_something_happens": [
+      "If you clicked: disconnect nothing yourself, report it immediately",
+      "Change the password from a trusted device and enable MFA",
+      "Tell IT/security what you entered and when"
+    ],
+    "safe_examples": [
+      {
+        "label": "Suspicious (fictional)",
+        "text": "From: it-support@mail-helpdesk.invalid - 'Your mailbox will close in 1 hour. Confirm your password at the link below.' Signs: look-alike sender, urgency, credential request."
+      },
+      {
+        "label": "Suspicious (fictional)",
+        "text": "'Invoice attached - please pay today to avoid penalty.' From an unknown sender with an unexpected attachment. Signs: payment pressure, unexpected attachment."
+      },
+      {
+        "label": "Safer behaviour",
+        "text": "You get a message you did not expect. You do not click. You open the official website yourself or call the number on your card, and you report the message."
+      }
+    ]
+  },
+  {
+    "module_id": "MOD-02",
+    "slug": "passwords",
+    "title": "Password Security",
+    "quiz_category": "Passwords",
+    "what_is_it": "A password is a secret that proves who you are to a service.",
+    "why_it_matters": "Reused or weak passwords let one breach unlock many accounts.",
+    "warning_signs": [
+      "Same password on several sites",
+      "Short or guessable passwords",
+      "Passwords shared in chat or notes",
+      "Notification of a breach involving your email"
+    ],
+    "safe_practices": [
+      "Use a long unique passphrase per account",
+      "Use a password manager",
+      "Never reuse passwords",
+      "Check if your accounts appear in breach-notification services"
+    ],
+    "if_something_happens": [
+      "Change the password on the affected site and any site where it was reused",
+      "Enable MFA",
+      "Review recent sign-in activity"
+    ]
+  },
+  {
+    "module_id": "MOD-03",
+    "slug": "mfa",
+    "title": "Multi-Factor Authentication (MFA)",
+    "quiz_category": "MFA",
+    "what_is_it": "MFA asks for a second proof (app code, security key, passkey) in addition to your password.",
+    "why_it_matters": "A strong password plus MFA is generally safer than a password alone because a stolen password is not enough.",
+    "warning_signs": [
+      "Unexpected MFA prompts you did not trigger",
+      "Requests to read out a one-time code",
+      "Pressure to approve a prompt quickly"
+    ],
+    "safe_practices": [
+      "Prefer authenticator apps or security keys over SMS where possible",
+      "Learn about passkeys/WebAuthn: phishing-resistant sign-in bound to the real website",
+      "Never share one-time codes",
+      "Deny prompts you did not start"
+    ],
+    "if_something_happens": [
+      "If you approved a prompt by mistake, change your password and report it",
+      "Review registered MFA devices and remove unknown ones"
+    ]
+  },
+  {
+    "module_id": "MOD-04",
+    "slug": "social-engineering",
+    "title": "Social Engineering",
+    "quiz_category": "Social Engineering",
+    "what_is_it": "Manipulating people (phone, chat, in person) into bypassing normal security steps.",
+    "why_it_matters": "Attackers target trust and helpfulness because people are often easier to influence than systems.",
+    "warning_signs": [
+      "Pretext stories with pressure to skip process",
+      "Caller claims to be IT or an executive",
+      "Requests for secrecy",
+      "Offers that seem too good to be true"
+    ],
+    "safe_practices": [
+      "Verify identity using a known official number or channel",
+      "Follow the standard process even when pressured",
+      "It is fine to say 'I will call you back'"
+    ],
+    "if_something_happens": [
+      "Stop the conversation",
+      "Report what was asked and by whom",
+      "Change credentials if any were shared"
+    ]
+  },
+  {
+    "module_id": "MOD-05",
+    "slug": "safe-browsing",
+    "title": "Safe Browsing",
+    "quiz_category": "Safe Browsing",
+    "what_is_it": "Habits that reduce risk from websites, downloads and browser extensions.",
+    "why_it_matters": "Malicious or spoofed sites can steal data or deliver unwanted software.",
+    "warning_signs": [
+      "Misspelled or odd domain names",
+      "Browser security warnings",
+      "Pop-ups demanding urgent downloads",
+      "Login pages reached via an unexpected link"
+    ],
+    "safe_practices": [
+      "Type known addresses or use bookmarks for sensitive sites",
+      "Heed browser warnings",
+      "Install only trusted extensions and software",
+      "Keep the browser updated"
+    ],
+    "if_something_happens": [
+      "Close the tab, do not enter details",
+      "Run your approved security scan",
+      "Change passwords if you entered any"
+    ]
+  },
+  {
+    "module_id": "MOD-06",
+    "slug": "secure-wifi",
+    "title": "Secure Wi-Fi",
+    "quiz_category": "Wi-Fi",
+    "what_is_it": "Using wireless networks in a way that protects your traffic and devices.",
+    "why_it_matters": "Open or fake hotspots can expose traffic or lure users to spoofed pages.",
+    "warning_signs": [
+      "Hotspot with a name similar to a known one",
+      "Open network asking you to sign in with work credentials",
+      "Certificate warnings"
+    ],
+    "safe_practices": [
+      "Prefer trusted networks (WPA2/WPA3)",
+      "Use a VPN approved by your organisation on public Wi-Fi",
+      "Turn off auto-join for open networks",
+      "Forget networks you no longer use"
+    ],
+    "if_something_happens": [
+      "Disconnect and switch networks",
+      "Change passwords used while connected",
+      "Report if work data may have been exposed"
+    ]
+  },
+  {
+    "module_id": "MOD-07",
+    "slug": "software-updates",
+    "title": "Software Updates",
+    "quiz_category": "Safe Browsing",
+    "what_is_it": "Installing security patches for operating systems, apps and devices.",
+    "why_it_matters": "Many attacks rely on known weaknesses that updates already fix.",
+    "warning_signs": [
+      "Update notices you keep postponing",
+      "End-of-life software",
+      "Devices that never restart"
+    ],
+    "safe_practices": [
+      "Enable automatic updates",
+      "Restart when asked",
+      "Remove software you no longer use",
+      "Install updates only from official sources"
+    ],
+    "if_something_happens": [
+      "Update now if you have postponed",
+      "Ask IT about unsupported software",
+      "Report fake update pop-ups"
+    ]
+  },
+  {
+    "module_id": "MOD-08",
+    "slug": "ransomware",
+    "title": "Ransomware Awareness",
+    "quiz_category": "Ransomware",
+    "what_is_it": "Malware that locks or encrypts data and demands payment, often alongside data-theft threats.",
+    "why_it_matters": "It can halt operations for days and cause permanent data loss.",
+    "warning_signs": [
+      "Files suddenly renamed or unopenable",
+      "Unexpected ransom note",
+      "Unusual endpoint-protection alerts"
+    ],
+    "safe_practices": [
+      "Keep offline or immutable backups and test restores",
+      "Apply patches promptly",
+      "Use least privilege",
+      "Be cautious with attachments and links",
+      "Know your incident-response contacts"
+    ],
+    "if_something_happens": [
+      "Disconnect the device from the network as instructed by your policy and report immediately",
+      "Do not pay or negotiate on your own",
+      "Follow the incident-response plan"
+    ]
+  },
+  {
+    "module_id": "MOD-09",
+    "slug": "removable-media",
+    "title": "USB / Removable Media Safety",
+    "quiz_category": "Ransomware",
+    "what_is_it": "Safe handling of USB drives and other portable storage.",
+    "why_it_matters": "Unknown drives can carry malware, and lost drives can leak data.",
+    "warning_signs": [
+      "Found or gifted USB drives",
+      "Drives that prompt to run programs",
+      "Unencrypted drives with sensitive files"
+    ],
+    "safe_practices": [
+      "Never plug in unknown drives",
+      "Use approved, encrypted storage",
+      "Scan media per policy",
+      "Prefer secure cloud sharing"
+    ],
+    "if_something_happens": [
+      "Do not use the device; hand it to IT/security",
+      "Report lost drives straight away"
+    ]
+  },
+  {
+    "module_id": "MOD-10",
+    "slug": "data-privacy",
+    "title": "Data Privacy",
+    "quiz_category": "Privacy",
+    "what_is_it": "Collecting, sharing and storing personal data responsibly.",
+    "why_it_matters": "Mishandled data harms people and can lead to legal and reputational damage.",
+    "warning_signs": [
+      "Public sharing links on files",
+      "Over-sharing in forms or social posts",
+      "Data sent to the wrong recipient"
+    ],
+    "safe_practices": [
+      "Share the minimum necessary",
+      "Check link-sharing settings",
+      "Classify and encrypt sensitive data",
+      "Dispose of data securely"
+    ],
+    "if_something_happens": [
+      "Remove access and report accidental disclosure",
+      "Note what data and who was affected"
+    ]
+  },
+  {
+    "module_id": "MOD-11",
+    "slug": "mobile-security",
+    "title": "Mobile Security",
+    "quiz_category": "Mobile Security",
+    "what_is_it": "Protecting phones and tablets and the data and accounts on them.",
+    "why_it_matters": "Phones hold email, banking and MFA apps, so they are high-value targets.",
+    "warning_signs": [
+      "Apps requesting excessive permissions",
+      "Unexpected battery drain or pop-ups",
+      "SMS links claiming package or bank issues"
+    ],
+    "safe_practices": [
+      "Use a screen lock and device encryption",
+      "Install apps from official stores only",
+      "Review app permissions",
+      "Keep the OS updated",
+      "Enable find-my-device"
+    ],
+    "if_something_happens": [
+      "Lock/wipe a lost device remotely",
+      "Change key passwords",
+      "Report to IT if work data was on it"
+    ]
+  },
+  {
+    "module_id": "MOD-12",
+    "slug": "remote-work",
+    "title": "Remote Work Security",
+    "quiz_category": "Wi-Fi",
+    "what_is_it": "Working securely from home or while travelling.",
+    "why_it_matters": "Home networks and shared spaces are less controlled than office networks.",
+    "warning_signs": [
+      "Default router passwords",
+      "Shared family devices used for work",
+      "Visible screens in public"
+    ],
+    "safe_practices": [
+      "Secure the home router and change defaults",
+      "Use organisation-approved tools and VPN",
+      "Lock your screen",
+      "Keep work and personal data separate"
+    ],
+    "if_something_happens": [
+      "Report lost or stolen equipment immediately",
+      "Change passwords if a device was shared or compromised"
+    ]
+  },
+  {
+    "module_id": "MOD-13",
+    "slug": "cloud-accounts",
+    "title": "Cloud Account Security",
+    "quiz_category": "Passwords",
+    "what_is_it": "Protecting accounts for email, storage and SaaS services.",
+    "why_it_matters": "Cloud accounts are reachable from anywhere, so stolen sign-ins have wide impact.",
+    "warning_signs": [
+      "Sign-in alerts from unknown places",
+      "New mailbox forwarding rules",
+      "Unknown connected apps"
+    ],
+    "safe_practices": [
+      "Enable MFA everywhere",
+      "Review sign-in activity and connected apps",
+      "Use least-privilege sharing",
+      "Use unique passwords"
+    ],
+    "if_something_happens": [
+      "Sign out all sessions and reset the password",
+      "Remove unknown apps and rules",
+      "Report to your security team"
+    ]
+  },
+  {
+    "module_id": "MOD-14",
+    "slug": "incident-reporting",
+    "title": "Incident Reporting",
+    "quiz_category": "Incident Reporting",
+    "what_is_it": "Telling the right people quickly when something looks wrong.",
+    "why_it_matters": "Early reports let security teams contain issues before they spread.",
+    "warning_signs": [
+      "Anything that feels suspicious",
+      "Lost devices",
+      "Accidental disclosure or clicking something"
+    ],
+    "safe_practices": [
+      "Know the reporting contact",
+      "Report fast, even if unsure",
+      "Describe what you saw, not what you assume",
+      "Keep evidence such as the original email"
+    ],
+    "if_something_happens": [
+      "Report immediately - you will not be blamed for good-faith reports",
+      "Follow instructions from the security team"
+    ]
+  },
+  {
+    "module_id": "MOD-15",
+    "slug": "ai-scams",
+    "title": "AI-Enabled Scam Awareness",
+    "quiz_category": "Social Engineering",
+    "what_is_it": "Scams that use AI to imitate voices, faces or writing styles.",
+    "why_it_matters": "Convincing fakes make impersonation of managers or relatives more believable.",
+    "warning_signs": [
+      "Unexpected urgent request in a familiar voice or video",
+      "Payment or secrecy demands",
+      "Slightly odd timing or wording"
+    ],
+    "safe_practices": [
+      "Verify through a second, trusted channel",
+      "Agree a family/team verification phrase",
+      "Treat urgent money requests with extra caution",
+      "Limit publicly shared voice and video"
+    ],
+    "if_something_happens": [
+      "Stop and verify before acting",
+      "Report the attempt",
+      "If money was sent, contact your bank at once"
+    ]
+  }
+]
