@@ -101,4 +101,4 @@ IOC analysis, risk vs confidence, ATT&CK, vulnerability prioritisation, correlat
 Defensive education only. Do not use this code to scan, probe or attack systems. All indicators are fictional, in reserved documentation ranges.
 
 ## Author
-*Your name - course - college.*
+`Piyush K. Ahirwar`· [GitHub](https://github.com/PiyushK-16) · [LinkedIn](https://www.linkedin.com/in/piyush-k-ahirwar-658633261)
